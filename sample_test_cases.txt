@@ -1,0 +1,11 @@
+Task 4 - Validation checklist
+
+1. Run task4_classification.py successfully.
+2. Confirm classification_metrics.csv contains four model rows and metric columns.
+3. Confirm classification_report.txt is created.
+4. Confirm summary.json is created.
+5. Confirm all four PNG charts exist in reports/graphs.
+6. Confirm best_classifier.joblib exists in artifacts.
+7. Review confusion matrix: check false positives and false negatives.
+8. Compare accuracy with precision, recall, F1-score, and ROC-AUC.
+9. Compare ordinary models against class-weighted models.

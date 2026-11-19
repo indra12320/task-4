@@ -1,0 +1,14 @@
+TASK 4 - QUICK START
+
+1. Extract this ZIP file.
+2. Open the extracted folder in VS Code.
+3. Open Terminal > New Terminal (PowerShell).
+4. Run these commands one at a time:
+
+py -m venv venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python task4_classification.py
+
+5. When it finishes, open the reports folder and then reports\graphs to view the generated charts.
